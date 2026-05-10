@@ -245,4 +245,4 @@ This project is licensed under the [ISC License](LICENSE).
 
 ## 👤 Author
 
-**Arijit** — [@Dev-Arijit](https://github.com/Dev-Arijit)
+**Soumyajit** — [@coder-soumya11](https://github.com/coder-soumya11)
