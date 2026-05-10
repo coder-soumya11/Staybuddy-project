@@ -64,6 +64,8 @@ const owners = [
   { name: "Rajesh Kumar",    email: "rajesh@staybuddy.com",  phone: "9876543210" },
   { name: "Priya Sharma",    email: "priya@staybuddy.com",   phone: "9876543211" },
   { name: "Amit Patel",      email: "amit@staybuddy.com",    phone: "9876543212" },
+  { name: "Vikram Singh",    email: "vikram@staybuddy.com",  phone: "9876543213" },
+  { name: "Deepa Banerjee",  email: "deepa@staybuddy.com",   phone: "9876543214" },
 ];
 
 // ───────────────── STUDENT DATA ─────────────────
@@ -72,6 +74,9 @@ const students = [
   { name: "Rohan Mehta",     email: "rohan@student.com",   phone: "9123456781" },
   { name: "Sneha Das",       email: "sneha@student.com",   phone: "9123456782" },
   { name: "Karan Gupta",     email: "karan@student.com",   phone: "9123456783" },
+  { name: "Arjun Bhattacharya", email: "arjun@student.com", phone: "8765432100" },
+  { name: "Priya Chatterjee",    email: "priya.c@student.com", phone: "8765432101" },
+  { name: "Nikhil Mukherjee",    email: "nikhil@student.com",  phone: "8765432102" },
 ];
 
 // ───────────────── PROPERTY DATA ─────────────────
@@ -185,6 +190,72 @@ const propertyTemplates = [
     amenities: ["WiFi", "Terrace", "Furnished", "Mini Fridge", "Microwave"],
     views: 87,
     contactClicks: 12,
+  },
+  {
+    title: "Spacious 2 BHK Near Adamas Gate",
+    location: "Rajarhat, Kolkata",
+    price: 8000,
+    capacity: "2 Sharing",
+    description:
+      "Modern 2 BHK flat just 10 minutes from Adamas University main gate. Includes AC, modular kitchen, balcony, and 24/7 water supply. Perfect for engineering students.",
+    amenities: ["AC", "Balcony", "Kitchen", "WiFi", "Power Backup"],
+    views: 220,
+    contactClicks: 35,
+  },
+  {
+    title: "Budget PG – 3 Sharing in Newtown",
+    location: "Newtown, Kolkata",
+    price: 4500,
+    capacity: "3 Sharing",
+    description:
+      "Affordable 3-sharing PG close to Adamas University. Includes daily meals, laundry service, WiFi, and 24/7 security. Walking distance to metro station.",
+    amenities: ["WiFi", "Meals", "Laundry", "Security", "Power Backup"],
+    views: 165,
+    contactClicks: 28,
+  },
+  {
+    title: "Premium Single Studio – Sector V",
+    location: "Sector V, Kolkata",
+    price: 9500,
+    capacity: "Single",
+    description:
+      "Luxury studio apartment with smart home features, gym access, and rooftop garden. Located in the heart of Sector V, 15 minutes from Adamas. Best for post-grad students.",
+    amenities: ["AC", "Gym", "Smart Lock", "Rooftop Garden", "Parking"],
+    views: 289,
+    contactClicks: 41,
+  },
+  {
+    title: "Girls Only Hostel – Salt Lake",
+    location: "Salt Lake, Kolkata",
+    price: 5500,
+    capacity: "3 Sharing",
+    description:
+      "Safe and secure girls-only hostel with CCTV, warden on-site, and friendly community. Includes home-cooked meals and laundry. 8 minutes to Adamas by bus.",
+    amenities: ["Meals", "Laundry", "CCTV", "WiFi", "Security"],
+    views: 178,
+    contactClicks: 26,
+  },
+  {
+    title: "Cozy 1 BHK in AJC Bose Road",
+    location: "AJC Bose Road, Kolkata",
+    price: 7500,
+    capacity: "Single",
+    description:
+      "Well-furnished 1 BHK with attached bathroom, study area, and kitchenette. Close to major transportation hub and just 20 minutes from Adamas University.",
+    amenities: ["WiFi", "AC", "Furnished", "Study Area", "Kitchen"],
+    views: 142,
+    contactClicks: 19,
+  },
+  {
+    title: "Co-Living Space – Rajarhat",
+    location: "Rajarhat, Kolkata",
+    price: 6500,
+    capacity: "2 Sharing",
+    description:
+      "Trendy co-living space with shared kitchen, gaming zone, and study lounge. Community-focused with weekly events. Perfect for Adamas students seeking social life.",
+    amenities: ["WiFi", "Gaming Zone", "Co-Working", "Kitchen", "Events"],
+    views: 201,
+    contactClicks: 33,
   },
 ];
 
